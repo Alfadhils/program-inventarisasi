@@ -261,10 +261,10 @@ void bacaBarang(Produk realProduk1[], ListNode **headAddrPtr, BinaryTree **rootA
 			system("cls");
 	printf("----------------------------------------------------------------------------------\n");
 	printf("Tampilan Linked List (urutan berdasarkan ID):\n");
-	printList(*headAddrPtr); // print Linked List (debug)
+	printList(*headAddrPtr); // print Linked List 
 	printf("\n");
 	printf("Tampilan Binary Tree (urutan berdasarkan nama, dalam urutan in-order): \n\n");
-	printInOrder(*rootAddrPtr); // print Binary Tree (debug)
+	printInOrder(*rootAddrPtr); // print Binary Tree 
 	printf("\n");
 	printf("----------------------------------------------------------------------------------\n");
 	printf("Rincian dari Binary Tree:\n");
@@ -429,13 +429,13 @@ void searching(Produk realProduk1[], ListNode **headAddrPtr, BinaryTree **rootAd
 				printf("  %-22s", realProduk1[j].namaProduk);
 				printf(" %-17d\n", realProduk1[j].kuantitas);
 				printf("--------------------------------------------------\n");
-				printf("| Dari List |-------------------->"); // debug
-				bacaDariList(headAddrPtr, realProduk1[j]); // debug
+				printf("| Dari List |-------------------->"); 
+				bacaDariList(headAddrPtr, realProduk1[j]);
 				
 				BinaryTree *nodeHasil = bacaDariTree(rootAddrPtr, realProduk1[j]);
 				Produk hasil = nodeHasil -> barang;
 				printf("\n| Dari Tree |-------------------->|%s, %s, %d|\n", hasil.id, hasil.namaProduk, hasil.kuantitas); 
-				printf("--------------------------------------------------\n");// debug
+				printf("--------------------------------------------------\n");
 			}
 		}
 
@@ -629,7 +629,7 @@ void bacaDariList(ListNode **hPtr, Produk produk1) {
 
 	// apabila match dengan data pertama
 	if (!strcmp(produk1.id, ((*hPtr) -> barang).id)) {
-		printf("|%s, %s, %d|", ((*hPtr) -> barang).id, ((*hPtr) -> barang).namaProduk, ((*hPtr) -> barang).kuantitas); // debug
+		printf("|%s, %s, %d|", ((*hPtr) -> barang).id, ((*hPtr) -> barang).namaProduk, ((*hPtr) -> barang).kuantitas); 
 	}
 	else {
 		prevPtr = *hPtr;
@@ -642,12 +642,11 @@ void bacaDariList(ListNode **hPtr, Produk produk1) {
 		}
 
 		if (currPtr != NULL) {
-			printf("|%s, %s, %d|", (currPtr -> barang).id, (currPtr -> barang).namaProduk, (currPtr -> barang).kuantitas); // debug
+			printf("|%s, %s, %d|", (currPtr -> barang).id, (currPtr -> barang).namaProduk, (currPtr -> barang).kuantitas); 
 		}
 	}
 }
 
-// untuk keperluan debug saja, yang ditampilkan bisa diubah-ubah sesuai keperluan debug
 void printList(ListNode *hPtr) {
 	printf("\n");
 	if (hPtr == NULL) {
