@@ -3,6 +3,9 @@ Program ini bertujuan untuk memudahkan pengguna untuk melakukan inventarisasi as
 Secara umum, program ini mempunyai fitur untuk menambahkan barang, mengubah jumlah barang yang sudah tersimpan, menampilkan semua barang yang berhasil tersimpan ke dalam inventarisasi, menghapus barang dari inventarisasi, dan mencari barang di dalam inventarisasi.
 Karena dalam Proyek Akhir diharuskan untuk mengimplementasikan struktur data Linked List dan Binary Tree, struktur data tersebut akan ditampilkan pada fitur yang sesuai.
 
+### Penjelasan source code
+YouTube: https://www.youtube.com/watch?v=hYAY0tgyCF4
+
 ## Menambahkan barang
 Pengguna akan diminta untuk memasukkan jumlah iterasi (pengulangan) penambahan barang sebelum diminta untuk memasukkan data yang terkait langsung dengan barang yang akan ditambahkan. Pengguna hanya perlu memasukkan beberapa masukan sesuai dengan yang diminta oleh program. Penambahan barang akan muncul pada tabel sebagai representasi *array of struct*, pada Linked List, dan pada Binary Tree.
 
