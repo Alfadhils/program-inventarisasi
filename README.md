@@ -6,6 +6,12 @@ Karena dalam Proyek Akhir diharuskan untuk mengimplementasikan struktur data Lin
 ### Penjelasan source code
 YouTube: https://www.youtube.com/watch?v=hYAY0tgyCF4
 
+## Required: Linked List
+Linked List dalam program ini digunakan untuk menyimpan data inventarisasi dan dimasukkan berdasarkan urutan ID barang menurut ASCII. Pengguna dapat menambahkan, menampilkan, mengubah, menghapus, atau mencari barang dengan menggunakan Linked List ini ketika pengguna mengaksesnya melalui menu yang tersedia. Selain mengubah *array of struct* sebagai tempat penyimpanan utama, Linked List juga dapat diubah/diakses melalui menu tersebut.
+
+## Required: Binary Tree
+Binary Tree dalam program ini digunakan untuk menyimpan data inventarisasi dan dimasukkan berdasarkan urutan nama barang menurut ASCII. Pengguna dapat menambahkan, menampilkan, mengubah, menghapus, atau mencari barang dengan menggunakan Binary Tree ini ketika pengguna mengaksesnya melalui menu yang tersedia. Selain mengubah *array of struct* sebagai tempat penyimpanan utama, Binary Tree juga dapat diubah/diakses melalui menu tersebut.
+
 ## Menambahkan barang
 Pengguna akan diminta untuk memasukkan jumlah iterasi (pengulangan) penambahan barang sebelum diminta untuk memasukkan data yang terkait langsung dengan barang yang akan ditambahkan. Pengguna hanya perlu memasukkan beberapa masukan sesuai dengan yang diminta oleh program. Penambahan barang akan muncul pada tabel sebagai representasi *array of struct*, pada Linked List, dan pada Binary Tree.
 
